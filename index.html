@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Nico's Last Day</title>
+<link rel="stylesheet" type="text/css" href="/assets/css/jquery.countdown.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Special+Elite">
+<style type="text/css">
+* { font-family: 'Special Elite', cursive }
+body { text-align: center; }
+h1 { font-size: 48px; font-weight: bold; margin: 2em; }
+#video { clear: both; text-align: center; }
+#countdown {
+    font-size: 60px;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    background: transparent;
+    border: none;
+    margin-bottom: 2em;
+}
+</style>
+
+<script type="text/javascript" src="/assets/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.countdown.min.js"></script>
+<script>
+$(function () {
+    var lastDay = new Date(2014, 3, 14, 17, 0);
+    $('#countdown').countdown({until: lastDay});
+});
+</script>
+
+<h1>Nico's Last Day</h1>
+<div id="countdown"></div>
+<div id="video">
+    <iframe width="420" height="315" src="//www.youtube.com/embed/9jK-NcRmVcw?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
