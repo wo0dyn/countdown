@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>When is Amélie leaving Deepki?</title>
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.countdown.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Special+Elite">
+<style type="text/css">
+* { font-family: 'Special Elite', cursive }
+body { text-align: center; }
+h1 { font-size: 48px; font-weight: bold; margin: 2em; }
+#video { clear: both; text-align: center; }
+#countdown {
+    font-size: 60px;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    background: transparent;
+    border: none;
+    margin-bottom: 2em;
+}
+</style>
+
+<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+<script>
+$(function () {
+    const améliesLastDayAtDeepki = new Date("2026-03-19T17:00:00")
+    $('#countdown').countdown({until: améliesLastDayAtDeepki})
+});
+</script>
+
+<h1>When is Amélie leaving Deepki?</h1>
+<div id="countdown"></div>
+<div id="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I0cZukTFXNw?si=8gKQhwHe7ZGr42Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
